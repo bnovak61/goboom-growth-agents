@@ -1,0 +1,65 @@
+{
+  "mcpServers": {
+    "n8n-mcp": {
+      "command": "npx",
+      "args": ["n8n-mcp"],
+      "env": {
+        "MCP_MODE": "stdio",
+        "LOG_LEVEL": "error",
+        "DISABLE_CONSOLE_OUTPUT": "true",
+        "N8N_API_URL": "https://bnovak8ff.app.n8n.cloud",
+        "N8N_API_KEY": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiI0YWVkODMyZS0zN2JlLTRkM2YtYWRlOC1jYzUwMjhlYmI1MzMiLCJpc3MiOiJuOG4iLCJhdWQiOiJwdWJsaWMtYXBpIiwiaWF0IjoxNzcyOTA2MTM0fQ.M_06KXH4R_oWthZoUbUQr5CH1faoJKIjsd96R7l1BjI"
+      }
+    },
+    "meta-ads": {
+      "command": "npx",
+      "args": ["-y", "@pipeboard/meta-ads-mcp@latest"],
+      "env": {
+        "META_ACCESS_TOKEN": "EAADoILZCHZAtcBQh608Dyt2DlZBWvCQBevFZCZBJguwQa2onUZBzkz9tRpqzj72a0tsvcx3b1aHERtoWILyDYGiJb9rAg8pjEahdWLRNpYAMXmOClMZBicoRcgk04MtJKOAf4CPIgLXcQnhjwZARtntM12z1aZBiDABCZBQhHJUCy9r5dySR79g5ucECZAE88LTcujK3P4HRexogOIyih7hDvHnSvjFgqGqDuGZBsfCn",
+        "META_APP_ID": "255227354113751"
+      }
+    },
+    "google-ads": {
+      "command": "/opt/homebrew/bin/pipx",
+      "args": [
+        "run",
+        "--spec",
+        "git+https://github.com/googleads/google-ads-mcp.git",
+        "google-ads-mcp"
+      ],
+      "env": {
+        "GOOGLE_APPLICATION_CREDENTIALS": "/Users/bnovak/GoBoom/goboom/.google-ads-credentials.json",
+        "GOOGLE_ADS_DEVELOPER_TOKEN": "wyv5YWkns7LYXHjsZ5bokg",
+        "GOOGLE_ADS_LOGIN_CUSTOMER_ID": "5660386900"
+      }
+    },
+    "supabase": {
+      "command": "npx",
+      "args": ["-y", "@supabase/mcp-server-supabase@latest", "--read-only"],
+      "env": {
+        "SUPABASE_URL": "https://fhohdllddnrydnqpalis.supabase.co",
+        "SUPABASE_SERVICE_ROLE_KEY": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImZob2hkbGxkZG5yeWRucXBhbGlzIiwicm9sZSI6InNlcnZpY2Vfcm9sZSIsImlhdCI6MTc2OTcxNzA3MCwiZXhwIjoyMDg1MjkzMDcwfQ.oZFMQRoTrJESzTf3eDREnHOM-EzmTiSqzaSjo9uspXE"
+      }
+    },
+    "context7": {
+      "command": "npx",
+      "args": ["-y", "@upstash/context7-mcp"]
+    },
+    "obsidian": {
+      "command": "npx",
+      "args": ["-y", "mcp-obsidian", "/Users/bnovak/ObsidianVault"]
+    },
+    "lightrag": {
+      "command": "npx",
+      "args": ["-y", "lightrag-mcp"],
+      "env": {
+        "LIGHTRAG_API_URL": "http://localhost:9621",
+        "LIGHTRAG_API_KEY": "YOUR_LIGHTRAG_API_KEY"
+      }
+    },
+    "goboom-growth-agents": {
+      "command": "npx",
+      "args": ["tsx", "/Users/bnovak/Documents/goboom-growth-agents/src/mcp/server.ts"]
+    }
+  }
+}

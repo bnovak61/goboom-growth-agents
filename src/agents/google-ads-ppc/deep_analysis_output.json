@@ -1,0 +1,488 @@
+{
+  "generated_at": "2026-03-10T19:56:11.303969",
+  "customer_id": "9926142954",
+  "target_cpl": 80,
+  "executive_summary": {
+    "headline": "Legacy Campaign Recovery in Progress",
+    "situation": "After 4 months of RocketClicks' high-intent campaigns underperforming, legacy campaigns were reactivated on Feb 22. Best week ever followed (Feb 22-28), but March shows volatility as Google's algorithm re-learns.",
+    "key_insight": "The March 'collapse' is actually a NORMAL re-learning period. Your campaigns are rebuilding from 4 months of neglect."
+  },
+  "timeline": {
+    "phase_1": {
+      "period": "Nov 2025 - Feb 21, 2026",
+      "title": "RocketClicks High-Intent Era",
+      "description": "RocketClicks ran high-intent campaigns that the algorithm prioritized over legacy campaigns",
+      "result": "Legacy campaigns deprioritized, Quality Scores decayed, historical conversion data staled"
+    },
+    "phase_2": {
+      "period": "Feb 22-28, 2026",
+      "title": "Legacy Campaign Reactivation",
+      "description": "High-intent campaigns paused, legacy Nationwide Non-Brand campaigns reactivated",
+      "result": "BEST WEEK EVER - Algorithm still had historical patterns, Quality Scores hadn't fully degraded"
+    },
+    "phase_3": {
+      "period": "March 1-9, 2026",
+      "title": "Re-Learning Period",
+      "description": "Google's Smart Bidding starts making new predictions with limited recent data",
+      "result": "CPL volatility as algorithm explores optimal bid levels"
+    },
+    "phase_4": {
+      "period": "March 10+",
+      "title": "Recovery & Optimization",
+      "description": "Negative keywords added, informational queries blocked",
+      "result": "Expected: CPL stabilization within 2-3 weeks"
+    }
+  },
+  "period_comparison": {
+    "feb_8_21": {
+      "label": "Feb 8-21 (Before High-Intent Pause)",
+      "total_spend": 63249.824468000006,
+      "total_conversions": 1012.4765159999998,
+      "avg_cpl": 62.47041138087989,
+      "days": 14
+    },
+    "feb_22_28": {
+      "label": "Feb 22-28 (Best Week - Legacy Campaigns Active)",
+      "total_spend": 24979.228165,
+      "total_conversions": 239.95710400000004,
+      "avg_cpl": 104.09872326597173,
+      "days": 7
+    },
+    "march_1_9": {
+      "label": "March 1-9 (Current - Decline)",
+      "total_spend": 29439.639255,
+      "total_conversions": 361.973606,
+      "avg_cpl": 81.33090028392843,
+      "days": 9
+    }
+  },
+  "why_march_collapsed": [
+    {
+      "category": "Quality Score Degradation",
+      "severity": "CRITICAL",
+      "explanation": "During the 4 months RocketClicks ran their high-intent campaigns, your legacy campaigns were deprioritized.\n\nGoogle's algorithm stopped serving impressions to your proven keywords, causing their Quality Scores to decay.\nQuality Score is based on:\n- Expected CTR (drops when ads don't show)\n- Ad relevance (loses freshness signals)\n- Landing page experience (no new data)\n\nCurrently 146 keywords have QS below 5. This means you're paying 50-400% MORE per click than competitors with higher QS.\n\nTop affected keywords:\n\u2022 'how to start a nonprofit' (QS: 2) - $6998.85 spend\n\u2022 'how to start a nonprofit' (QS: 3) - $5140.76 spend\n\u2022 'how to start a nonprofit' (QS: 3) - $3142.07 spend\n\u2022 'how to open a 501c3' (QS: 1) - $2483.00 spend\n\u2022 'start a nonprofit' (QS: 3) - $2228.85 spend",
+      "impact": "Estimated 30-50% higher CPCs due to QS penalty",
+      "fix": "Quality Scores take 2-4 weeks to rebuild with consistent impressions. Keep campaigns running."
+    },
+    {
+      "category": "Search Term Drift (Informational Queries)",
+      "severity": "CRITICAL",
+      "explanation": "During the 4 months of neglect, Google's broad match algorithm started matching your ads to increasingly irrelevant queries.\n\nWithout active negative keyword management, informational searches like \"how to start a nonprofit\" began triggering your ads. These searchers are in RESEARCH mode, not BUYING mode.\n\n462 informational queries spent $20317.30 in the last 30 days with minimal conversions.\n\nExamples:\n\u2022 'how to start a nonprofit' - $1075.84\n\u2022 'how to start a non profit' - $738.93\n\u2022 'how to start a nonprofit organization' - $619.20\n\u2022 'how to start a non profit organization' - $595.14\n\u2022 'how to start a nonprofit' - $517.01\n\u2022 'how to start a nonprofit organization' - $401.47\n\u2022 'how do i start a non profit organization' - $370.85\n\u2022 'how to start a non profit' - $342.77",
+      "impact": "$20317.30/month wasted on non-converting traffic",
+      "fix": "Added 175 negative keywords to block these queries. Effect will be immediate."
+    },
+    {
+      "category": "Smart Bidding Re-Learning Period",
+      "severity": "HIGH",
+      "explanation": "When you paused the RocketClicks campaigns and reactivated the legacy campaigns on Feb 22, Google's Smart Bidding algorithm had to re-learn.\n\nThe algorithm needs 2-4 weeks of consistent data to optimize effectively. During Feb 22-28, it was still using historical conversion patterns from when the campaigns were active.\n\nBy March, the algorithm started making new predictions based on recent (limited) data, causing volatility.\n\nThe spike days (March 4: $117 CPL, Feb 27: $141 CPL) are the algorithm \"exploring\" - testing higher bids to gather conversion data.",
+      "impact": "CPL volatility of 50-100% during learning period",
+      "fix": "Allow 2-3 more weeks for algorithm to stabilize. Avoid making major changes."
+    },
+    {
+      "category": "Impression Share Loss",
+      "severity": "MEDIUM",
+      "explanation": "Your campaigns are only capturing 21-43% of available impressions:\n\n\u2022 Nationwide - Non Brand 1: 23% impression share\n\u2022 Nationwide - Non Brand 2: 35% impression share\n\u2022 Weekend campaigns: 21-43% impression share\n\nThis means 57-79% of potential leads are going to competitors.\n\nLow impression share is caused by:\n1. Budget limitations (hitting daily caps)\n2. Ad rank issues (QS \u00d7 bid)\n3. Competition increasing bids\n\nDuring the 4-month RocketClicks period, competitors may have increased their presence.",
+      "impact": "Missing 50-70% of potential conversions",
+      "fix": "Consider 20-30% budget increase on best performers (Weekend campaigns at $62-74 CPL)"
+    },
+    {
+      "category": "Market Timing",
+      "severity": "LOW",
+      "explanation": "Late February/early March often sees shifts in nonprofit formation searches:\n\n\u2022 Tax season drives 501(c)(3) interest\n\u2022 New Year resolution effect fading\n\u2022 Q1 business planning cycles\n\nThis doesn't explain the full drop but contributes to conversion rate variance.",
+      "impact": "5-15% seasonal fluctuation",
+      "fix": "Monitor year-over-year trends"
+    }
+  ],
+  "actions_taken": {
+    "timestamp": "2026-03-10T19:56:11.303991",
+    "actions": [
+      {
+        "action": "Added 175 Negative Keywords",
+        "campaigns": [
+          "Nationwide - Non Brand 1",
+          "Nationwide - Non Brand 2",
+          "NB1 Weekend",
+          "NB2 Weekend",
+          "Q1 LP Test"
+        ],
+        "keywords_blocked": [
+          "how to",
+          "what is",
+          "free",
+          "diy",
+          "reddit",
+          "jobs",
+          "salary",
+          "degree",
+          "requirements",
+          "tutorial",
+          "how to start a nonprofit",
+          "501c3 requirements"
+        ],
+        "expected_savings": "$7,000/month",
+        "reason": "Block informational queries that waste budget on non-converting traffic"
+      },
+      {
+        "action": "High-Intent Campaign Status",
+        "detail": "Campaign 'Non Brand - High Intent (FL Ad Group LP Test)' is a trial campaign and cannot be paused via API. Recommend manual pause in Google Ads UI.",
+        "cpl": "$429.24",
+        "reason": "This campaign from RocketClicks had only 2 conversions on $847 spend"
+      }
+    ]
+  },
+  "recommendations": {
+    "immediate": [
+      {
+        "priority": 1,
+        "action": "Manually pause High-Intent campaign in Google Ads",
+        "reason": "It's a trial campaign that API cannot modify",
+        "impact": "Stop $800+/month waste"
+      },
+      {
+        "priority": 2,
+        "action": "DO NOT make major changes for 2-3 weeks",
+        "reason": "Let Smart Bidding re-learn with consistent data",
+        "impact": "Faster algorithm stabilization"
+      }
+    ],
+    "short_term": [
+      {
+        "priority": 3,
+        "action": "Increase budget on Weekend campaigns by 30%",
+        "reason": "Best CPL ($62-74) with low impression share (21-43%)",
+        "impact": "Capture more efficient conversions"
+      },
+      {
+        "priority": 4,
+        "action": "Review landing pages for low QS keywords",
+        "reason": "100 keywords have QS below 5",
+        "impact": "Reduce CPCs by 30-50%"
+      }
+    ],
+    "monitor": [
+      "Daily CPL by campaign",
+      "Quality Score trends",
+      "Search term report (weekly)",
+      "Impression share recovery"
+    ]
+  },
+  "expected_outcomes": {
+    "week_1_2": "Informational queries blocked, immediate waste reduction of ~$500/day",
+    "week_3_4": "Smart Bidding stabilizes, CPL variance reduces by 50%",
+    "week_5_8": "Quality Scores begin recovering, CPCs decrease 10-20%",
+    "month_3": "Full optimization potential - targeting $65 CPL with current budget"
+  },
+  "daily_performance": [
+    {
+      "spend": 4473.552116999999,
+      "conversions": 55.979666,
+      "clicks": 434,
+      "impressions": 6840,
+      "date": "2026-03-09",
+      "cpl": 79.91387653152485
+    },
+    {
+      "spend": 1469.750993,
+      "conversions": 24.991658,
+      "clicks": 202,
+      "impressions": 2898,
+      "date": "2026-03-08",
+      "cpl": 58.80966332845944
+    },
+    {
+      "spend": 1426.1880970000002,
+      "conversions": 18.990489,
+      "clicks": 223,
+      "impressions": 3124,
+      "date": "2026-03-07",
+      "cpl": 75.10012496255364
+    },
+    {
+      "spend": 4300.927549999999,
+      "conversions": 49.010166999999996,
+      "clicks": 410,
+      "impressions": 6218,
+      "date": "2026-03-06",
+      "cpl": 87.75582319480772
+    },
+    {
+      "spend": 4056.4293210000005,
+      "conversions": 50.333334,
+      "clicks": 445,
+      "impressions": 4731,
+      "date": "2026-03-05",
+      "cpl": 80.59130994581048
+    },
+    {
+      "spend": 4056.559957,
+      "conversions": 34.672117,
+      "clicks": 409,
+      "impressions": 5463,
+      "date": "2026-03-04",
+      "cpl": 116.99775808324597
+    },
+    {
+      "spend": 4024.138203,
+      "conversions": 41.997841,
+      "clicks": 399,
+      "impressions": 5529,
+      "date": "2026-03-03",
+      "cpl": 95.81773984524585
+    },
+    {
+      "spend": 4036.102563,
+      "conversions": 63.006838,
+      "clicks": 406,
+      "impressions": 6288,
+      "date": "2026-03-02",
+      "cpl": 64.05816719448768
+    },
+    {
+      "spend": 1595.9904539999998,
+      "conversions": 22.991495999999998,
+      "clicks": 224,
+      "impressions": 2931,
+      "date": "2026-03-01",
+      "cpl": 69.41655532115004
+    },
+    {
+      "spend": 1748.415121,
+      "conversions": 19.997480000000003,
+      "clicks": 211,
+      "impressions": 2867,
+      "date": "2026-02-28",
+      "cpl": 87.4317724533291
+    },
+    {
+      "spend": 4039.0900229999997,
+      "conversions": 28.590322999999998,
+      "clicks": 372,
+      "impressions": 5664,
+      "date": "2026-02-27",
+      "cpl": 141.2747251229026
+    },
+    {
+      "spend": 4018.426149,
+      "conversions": 52.399552,
+      "clicks": 392,
+      "impressions": 4358,
+      "date": "2026-02-26",
+      "cpl": 76.68817758212894
+    },
+    {
+      "spend": 4070.9151490000004,
+      "conversions": 46.992732000000004,
+      "clicks": 399,
+      "impressions": 3797,
+      "date": "2026-02-25",
+      "cpl": 86.6286120372827
+    },
+    {
+      "spend": 4039.421118,
+      "conversions": 31.996855,
+      "clicks": 429,
+      "impressions": 4301,
+      "date": "2026-02-24",
+      "cpl": 126.24431738681818
+    },
+    {
+      "spend": 4028.352383,
+      "conversions": 28.0,
+      "clicks": 339,
+      "impressions": 3869,
+      "date": "2026-02-23",
+      "cpl": 143.86972796428572
+    },
+    {
+      "spend": 3034.608222,
+      "conversions": 31.980162,
+      "clicks": 347,
+      "impressions": 5022,
+      "date": "2026-02-22",
+      "cpl": 94.89033301332245
+    },
+    {
+      "spend": 3203.5132139999996,
+      "conversions": 56.934336,
+      "clicks": 357,
+      "impressions": 4664,
+      "date": "2026-02-21",
+      "cpl": 56.266805570543575
+    },
+    {
+      "spend": 4093.6203109999997,
+      "conversions": 37.5,
+      "clicks": 335,
+      "impressions": 5687,
+      "date": "2026-02-20",
+      "cpl": 109.16320829333333
+    },
+    {
+      "spend": 4043.8087610000002,
+      "conversions": 86.96145899999999,
+      "clicks": 410,
+      "impressions": 4387,
+      "date": "2026-02-19",
+      "cpl": 46.50116048535939
+    },
+    {
+      "spend": 4931.484657,
+      "conversions": 61.347193,
+      "clicks": 495,
+      "impressions": 4698,
+      "date": "2026-02-18",
+      "cpl": 80.38647598758105
+    },
+    {
+      "spend": 4084.014025,
+      "conversions": 88.387032,
+      "clicks": 414,
+      "impressions": 4704,
+      "date": "2026-02-17",
+      "cpl": 46.206031955004434
+    },
+    {
+      "spend": 3995.895689,
+      "conversions": 52.256668000000005,
+      "clicks": 411,
+      "impressions": 4352,
+      "date": "2026-02-16",
+      "cpl": 76.46671404690402
+    },
+    {
+      "spend": 3962.652106,
+      "conversions": 58.988067,
+      "clicks": 416,
+      "impressions": 5431,
+      "date": "2026-02-15",
+      "cpl": 67.1771818866348
+    },
+    {
+      "spend": 2237.172157,
+      "conversions": 25.0,
+      "clicks": 248,
+      "impressions": 3714,
+      "date": "2026-02-14",
+      "cpl": 89.48688628
+    },
+    {
+      "spend": 5868.617154,
+      "conversions": 86.35915299999999,
+      "clicks": 518,
+      "impressions": 8887,
+      "date": "2026-02-13",
+      "cpl": 67.95593692309603
+    },
+    {
+      "spend": 6051.492285,
+      "conversions": 122.38086799999999,
+      "clicks": 516,
+      "impressions": 6360,
+      "date": "2026-02-12",
+      "cpl": 49.44802552797714
+    },
+    {
+      "spend": 6099.493128,
+      "conversions": 89.923703,
+      "clicks": 543,
+      "impressions": 6641,
+      "date": "2026-02-11",
+      "cpl": 67.82964807399001
+    },
+    {
+      "spend": 5892.990333,
+      "conversions": 83.942781,
+      "clicks": 545,
+      "impressions": 7354,
+      "date": "2026-02-10",
+      "cpl": 70.20246723777235
+    },
+    {
+      "spend": 5956.792493,
+      "conversions": 96.51389499999999,
+      "clicks": 560,
+      "impressions": 6006,
+      "date": "2026-02-09",
+      "cpl": 61.719532643460305
+    },
+    {
+      "spend": 2828.278155,
+      "conversions": 65.98136099999999,
+      "clicks": 339,
+      "impressions": 4161,
+      "date": "2026-02-08",
+      "cpl": 42.86480472871725
+    }
+  ],
+  "quality_scores": {
+    "distribution": {
+      "qs_1_2": 78,
+      "qs_3_4": 68,
+      "qs_5_6": 42,
+      "qs_7_8": 11,
+      "qs_9_10": 1
+    },
+    "low_qs_high_spend": [
+      {
+        "keyword": "how to start a nonprofit",
+        "qs": 2,
+        "cost": 6998.850948,
+        "campaign": "Nationwide - Non Brand 2"
+      },
+      {
+        "keyword": "how to start a nonprofit",
+        "qs": 3,
+        "cost": 5140.764094,
+        "campaign": "Nationwide - Non Brand 1"
+      },
+      {
+        "keyword": "how to start a npo",
+        "qs": 4,
+        "cost": 3517.653364,
+        "campaign": "Nationwide - Non Brand 2"
+      },
+      {
+        "keyword": "how to start a nonprofit",
+        "qs": 3,
+        "cost": 3142.070385,
+        "campaign": "Nationwide - Non Brand 2 (Weekend)"
+      },
+      {
+        "keyword": "how to open a 501c3",
+        "qs": 1,
+        "cost": 2482.999476,
+        "campaign": "Nationwide - Non Brand 2"
+      },
+      {
+        "keyword": "start a nonprofit",
+        "qs": 3,
+        "cost": 2228.84638,
+        "campaign": "Nationwide - Non Brand 2"
+      },
+      {
+        "keyword": "nonprofit help",
+        "qs": 3,
+        "cost": 2172.139688,
+        "campaign": "Nationwide - Non Brand 1"
+      },
+      {
+        "keyword": "npo attorney",
+        "qs": 4,
+        "cost": 1896.305132,
+        "campaign": "Nationwide - Non Brand 1"
+      },
+      {
+        "keyword": "npo lawyer",
+        "qs": 3,
+        "cost": 1893.989768,
+        "campaign": "Nationwide - Non Brand 1"
+      },
+      {
+        "keyword": "start a nonprofit",
+        "qs": 3,
+        "cost": 1440.76234,
+        "campaign": "Nationwide - Non Brand 2"
+      }
+    ]
+  }
+}

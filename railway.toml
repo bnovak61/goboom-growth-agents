@@ -1,0 +1,20 @@
+[build]
+builder = "nixpacks"
+
+[[services]]
+name = "api"
+startCommand = "npm run start:api"
+
+[[services]]
+name = "worker"
+startCommand = "npm run start:worker"
+
+[[crons]]
+name = "facebook-optimizer"
+schedule = "0 */4 * * *"
+command = "npm run job:optimize-ads"
+
+[[crons]]
+name = "icp-crawler"
+schedule = "0 8 * * *"
+command = "tsx src/agents/icp-linkedin-crawler/cli.ts crawl"

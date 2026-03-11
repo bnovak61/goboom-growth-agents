@@ -1,0 +1,210 @@
+# CHISHOLM LAW FIRM - GOOGLE ADS ACTION PLAN
+## Generated: 2026-03-10
+
+---
+
+## EXECUTIVE SUMMARY
+
+**Performance Drop Identified:**
+- **Peak Performance:** Feb 8-13 (CPL $42-70, avg 90+ conversions/day)
+- **Collapse:** Feb 20-27 (CPL $109-144, avg 35 conversions/day)
+- **Current Status:** Recovering but inconsistent (CPL $75-117)
+
+**Impact:**
+- CPL increased 150% from $50 to $120+
+- Daily conversions dropped 65% from 100+ to 35
+- Wasted spend on informational queries: **$7,147/month**
+
+---
+
+## ROOT CAUSES
+
+### 1. INFORMATIONAL QUERY LEAKAGE (CRITICAL)
+**237 search terms** matching informational intent are draining budget.
+
+Top wasted queries:
+| Query | Spend | Conversions |
+|-------|-------|-------------|
+| "how to start a nonprofit" | $393.46 | 0 |
+| "how to start a non profit" | $358.23 | 0 |
+| "how to start a nonprofit organization" | $295.19 | 0 |
+| "how to start a non profit organization" | $265.15 | 0 |
+| "how do i start a non profit organization" | $171.99 | 0 |
+
+**Monthly Waste: $7,147**
+
+### 2. LOW QUALITY SCORES
+**100 keywords** have Quality Score below 5, causing:
+- Higher CPCs (paying more per click)
+- Lower ad positions
+- Reduced impression share
+
+Worst offenders:
+- "how to start a nonprofit" (QS: 1-3) - spending $6,998+
+- "how to open a 501c3" (QS: 1) - spending $2,483
+
+### 3. HIGH INTENT CAMPAIGN FAILURE
+Campaign: "Non Brand - High Intent (FL Ad Group LP Test)"
+- **Spend:** $847.52
+- **Conversions:** 2
+- **CPL:** $429.24 (5.4x target!)
+- **Status:** BLEEDING MONEY
+
+### 4. ZERO-CONVERSION SEARCH TERMS
+**79 search terms** with $2,898 total spend and ZERO conversions:
+| Query | Spend |
+|-------|-------|
+| "501 c 3 organization" | $125.43 |
+| "nonprofit lawyers" | $88.02 |
+| "501c3 requirements" | $84.72 |
+| "nonprofit law firm" | $80.41 |
+| "audrey chisholm" | $73.19 |
+
+---
+
+## IMMEDIATE ACTIONS (Execute Now)
+
+### ACTION 1: Add Negative Keywords
+Add the following negative keywords at CAMPAIGN level for all non-brand campaigns:
+
+**Phrase Match Negatives:**
+```
+"what is"
+"how to"
+"how do"
+"can i"
+"should i"
+"is it"
+"why"
+"when"
+"definition"
+"meaning"
+"example"
+"tutorial"
+"guide"
+"free"
+"diy"
+"reddit"
+"jobs"
+"salary"
+"career"
+"school"
+"degree"
+"requirements"
+"steps"
+"process"
+```
+
+**Exact Match Negatives:**
+```
+[how to start a nonprofit]
+[how to start a non profit]
+[how to start a nonprofit organization]
+[501c3 requirements]
+[nonprofit requirements]
+[how to form a nonprofit]
+```
+
+**Expected Impact:** Save $7,147/month, improve conversion rate
+
+### ACTION 2: Pause High Intent Campaign
+**Campaign:** "Non Brand - High Intent Non Brand - High Intent (FL Ad Group LP Test)"
+
+**Action:** PAUSE immediately
+**Reason:** $429 CPL with only 2 conversions is catastrophic
+**Expected Impact:** Save $800+/month
+
+### ACTION 3: Add Zero-Conversion Terms as Negatives
+Add these exact match negatives:
+```
+[501 c 3 organization]
+[nonprofit lawyers]
+[501c3 requirements]
+[nonprofit law firm]
+[bureau of corporations and charitable organizations]
+[non profit account]
+[501c3 attorney]
+```
+
+### ACTION 4: Improve Quality Scores
+For keywords with QS < 5 and high spend:
+
+1. **"how to start a nonprofit"** (QS: 2)
+   - Review landing page relevance
+   - Update ad copy to match search intent better
+   - Consider creating specific ad group with tailored ads
+
+2. **"how to open a 501c3"** (QS: 1)
+   - Create dedicated landing page for 501c3
+   - Write specific ad copy mentioning "501c3"
+   - Consider pausing until QS improves
+
+### ACTION 5: Reallocate Budget
+Move budget from underperformers to winners:
+
+**Reduce Budget:**
+- "Nationwide - Non Brand 1" ($82.99 CPL, 23% IS) → Cut 20%
+
+**Increase Budget:**
+- "Nationwide - Non Brand 2 (Weekend)" ($62.88 CPL, 43% IS) → Increase 30%
+- "Nationwide - Brand" ($21.03 CPL, 89% IS) → Increase 50%
+
+---
+
+## PERFORMANCE TARGETS
+
+| Metric | Current | Target (30 days) |
+|--------|---------|------------------|
+| CPL | $72.89 | $65 |
+| Conversions/day | 54 | 70 |
+| Wasted Spend | $7,147 | <$1,000 |
+| Quality Scores | 2-4 avg | 5+ avg |
+
+---
+
+## MONITORING PLAN
+
+### Daily
+- Check CPL for each campaign
+- Review search term report for new informational queries
+
+### Weekly
+- Add new negative keywords
+- Review Quality Score changes
+- Adjust bids based on performance
+
+### Bi-Weekly
+- Full account audit
+- Budget reallocation assessment
+
+---
+
+## CAMPAIGN RANKINGS (by efficiency)
+
+| Rank | Campaign | CPL | Action |
+|------|----------|-----|--------|
+| 1 | Nationwide - Brand | $21.03 | ↑ SCALE |
+| 2 | NB2 (Weekend) | $62.88 | ↑ SCALE |
+| 3 | NB1 - Q1 LP Test | $70.21 | MAINTAIN |
+| 4 | NB2 | $72.71 | MAINTAIN |
+| 5 | NB1 (Weekend) | $74.47 | MONITOR |
+| 6 | NB1 | $82.99 | ↓ REDUCE |
+| 7 | High Intent (FL) | $429.24 | ⛔ PAUSE |
+
+---
+
+## EXPECTED IMPACT
+
+After implementing all actions:
+
+| Metric | Improvement |
+|--------|-------------|
+| Monthly Savings | ~$8,000 |
+| CPL Reduction | 15-20% |
+| Conversion Increase | 20-30% |
+| Quality Score | +2-3 points |
+
+---
+
+*Report generated by Google Ads PPC Agent*
+*Chisholm Law Firm - Customer ID: 9926142954*

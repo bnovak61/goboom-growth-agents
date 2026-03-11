@@ -1,0 +1,43 @@
+# Dependencies
+node_modules/
+ui/node_modules/
+
+# Build output
+dist/
+ui/dist/
+
+# Environment variables
+.env
+.env.local
+.env.*.local
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+pnpm-debug.log*
+
+# Test coverage
+coverage/
+
+# Generated files
+*.generated.*
+output/
+downloads/
+
+# Puppeteer
+.cache/puppeteer/
+
+# Temporary files
+tmp/
+temp/

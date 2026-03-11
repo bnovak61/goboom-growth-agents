@@ -1,0 +1,531 @@
+{
+  "generated_at": "2026-03-10T20:59:13.412903",
+  "customer_id": "9926142954",
+  "target_cpl": 80,
+  "analysis_period": "2026-01-01 to present",
+  "executive_summary": {
+    "headline": "Chisholm Law Firm - January to March Performance Deep Dive",
+    "key_finding": "March decline driven by multiple factors including impression share loss and algorithm re-learning"
+  },
+  "monthly_performance": {
+    "2026-01": {
+      "spend": 158083.08635800012,
+      "impressions": 196389,
+      "clicks": 15867,
+      "conversions": 2412.0396920000003,
+      "cpl": 65.5391728760988,
+      "ctr": 8.07937308097704,
+      "days": 31,
+      "daily_spend": 5099.454398645165,
+      "daily_conversions": 77.80773200000002
+    },
+    "2026-02": {
+      "spend": 138078.51016399992,
+      "impressions": 165617,
+      "clicks": 13473,
+      "conversions": 1885.0629119999994,
+      "cpl": 73.2487543439611,
+      "ctr": 8.135034446946872,
+      "days": 28,
+      "daily_spend": 4931.375362999997,
+      "daily_conversions": 67.3236754285714
+    },
+    "2026-03": {
+      "spend": 33244.392099,
+      "impressions": 49857,
+      "clicks": 3500,
+      "conversions": 393.944214,
+      "cpl": 84.3885781731522,
+      "ctr": 7.020077421425277,
+      "days": 10,
+      "daily_spend": 3324.4392098999997,
+      "daily_conversions": 39.3944214
+    }
+  },
+  "weekly_performance": {
+    "2026-W01": {
+      "spend": 14235.077263000001,
+      "conversions": 216.24951,
+      "cpl": 65.82709603827543,
+      "ctr": 7.740665828458973
+    },
+    "2026-W02": {
+      "spend": 29335.934674999993,
+      "conversions": 565.4589329999999,
+      "cpl": 51.879867772820205,
+      "ctr": 8.475764274545748
+    },
+    "2026-W03": {
+      "spend": 36000.398326,
+      "conversions": 546.9366449999999,
+      "cpl": 65.82188020332778,
+      "ctr": 8.649909549652481
+    },
+    "2026-W04": {
+      "spend": 40939.355319,
+      "conversions": 532.510092,
+      "cpl": 76.8799614017456,
+      "ctr": 7.626784742678098
+    },
+    "2026-W05": {
+      "spend": 39933.67237400001,
+      "conversions": 586.861579,
+      "cpl": 68.04615228355239,
+      "ctr": 7.770635529083368
+    },
+    "2026-W06": {
+      "spend": 38596.895102,
+      "conversions": 620.708025,
+      "cpl": 62.18204622374586,
+      "ctr": 8.32362573356485
+    },
+    "2026-W07": {
+      "spend": 42082.594465,
+      "conversions": 591.0581890000001,
+      "cpl": 71.19873347190862,
+      "ctr": 7.751937984496124
+    },
+    "2026-W08": {
+      "spend": 33093.04905500001,
+      "conversions": 429.34268899999995,
+      "cpl": 77.07840357565752,
+      "ctr": 8.299692792037982
+    },
+    "2026-W09": {
+      "spend": 23540.610397,
+      "conversions": 230.96843800000002,
+      "cpl": 101.92133003471235,
+      "ctr": 8.51477309533235
+    },
+    "2026-W10": {
+      "spend": 23370.096684,
+      "conversions": 283.00244399999997,
+      "cpl": 82.5791337830284,
+      "ctr": 7.2815392251321125
+    },
+    "2026-W11": {
+      "spend": 8278.304961,
+      "conversions": 87.95027400000001,
+      "cpl": 94.1248342330349,
+      "ctr": 6.169625246548324
+    }
+  },
+  "campaign_monthly": {
+    "Nationwide - Non Brand 1": {
+      "2026-01": {
+        "spend": 89497.423347,
+        "conversions": 1310.3257359999996,
+        "cpl": 68.30166033386986,
+        "ctr": 7.829198518929573
+      },
+      "2026-02": {
+        "spend": 39757.773831,
+        "conversions": 543.512143,
+        "cpl": 73.14974346580513,
+        "ctr": 7.59921525988607
+      },
+      "2026-03": {
+        "spend": 14770.476268999999,
+        "conversions": 150.9806,
+        "cpl": 97.83029256076607,
+        "ctr": 6.762200736648251
+      }
+    },
+    "Nationwide - Non Brand 2": {
+      "2026-01": {
+        "spend": 63143.964923999985,
+        "conversions": 993.8178859999999,
+        "cpl": 63.5367563952255,
+        "ctr": 8.295874477494396
+      },
+      "2026-02": {
+        "spend": 53622.285005,
+        "conversions": 774.7888670000002,
+        "cpl": 69.2088997259688,
+        "ctr": 9.019023607609443
+      },
+      "2026-03": {
+        "spend": 13635.628378999998,
+        "conversions": 161.98997100000003,
+        "cpl": 84.17575665224359,
+        "ctr": 6.942821278621825
+      }
+    },
+    "Nationwide - Brand": {
+      "2026-01": {
+        "spend": 2102.416248,
+        "conversions": 45.916258,
+        "cpl": 45.78805720622965,
+        "ctr": 13.606299212598424
+      },
+      "2026-02": {
+        "spend": 1315.535901,
+        "conversions": 58.928421,
+        "cpl": 22.324302580583314,
+        "ctr": 15.005246589716684
+      },
+      "2026-03": {
+        "spend": 397.42790699999995,
+        "conversions": 14.0,
+        "cpl": 28.38770764285714,
+        "ctr": 17.04781704781705
+      }
+    },
+    "Nationwide - Non Brand 1 (Weekend)": {
+      "2026-01": {
+        "spend": 1439.450548,
+        "conversions": 23.978314,
+        "cpl": 60.03134949354654,
+        "ctr": 6.584867075664621
+      },
+      "2026-02": {
+        "spend": 8879.195404,
+        "conversions": 132.70406300000002,
+        "cpl": 66.90974792535175,
+        "ctr": 6.002308580223162
+      },
+      "2026-03": {
+        "spend": 1906.1353490000001,
+        "conversions": 27.497602,
+        "cpl": 69.32005739991436,
+        "ctr": 6.329747310482863
+      }
+    },
+    "Nationwide - Non Brand 2 (Weekend)": {
+      "2026-01": {
+        "spend": 1899.831291,
+        "conversions": 38.001498,
+        "cpl": 49.99358948955118,
+        "ctr": 6.5679676985195155
+      },
+      "2026-02": {
+        "spend": 13219.503418,
+        "conversions": 207.070985,
+        "cpl": 63.84044301522977,
+        "ctr": 8.36966440231167
+      },
+      "2026-03": {
+        "spend": 2534.724195,
+        "conversions": 39.476040999999995,
+        "cpl": 64.20917930954627,
+        "ctr": 7.877551020408164
+      }
+    },
+    "Non Brand - High Intent": {
+      "2026-02": {
+        "spend": 11719.488985,
+        "conversions": 41.925561,
+        "cpl": 279.53088057664866,
+        "ctr": 8.902028414223537
+      }
+    },
+    "Nationwide - Non Brand 1 Nationwide - Non Brand 1 - Q1 '26 LP Test": {
+      "2026-02": {
+        "spend": 8717.203965,
+        "conversions": 124.15839400000002,
+        "cpl": 70.21034731650926,
+        "ctr": 6.000166903112743
+      }
+    },
+    "Non Brand - High Intent Non Brand - High Intent (FL Ad Group LP Test)": {
+      "2026-02": {
+        "spend": 847.523655,
+        "conversions": 1.974478,
+        "cpl": 429.23935085627693,
+        "ctr": 8.669833729216151
+      }
+    }
+  },
+  "search_term_analysis": {
+    "high_intent_legal": {
+      "total_cost": 16102.769829,
+      "total_conversions": 241.32231299999998,
+      "avg_cpl": 66.72723143093694,
+      "term_count": 285,
+      "top_converting_terms": [
+        {
+          "term": "non profit attorney",
+          "conversions": 28.941482,
+          "cost": 1119.246809,
+          "cpl": 38.6727538347898
+        },
+        {
+          "term": "non profit lawyer",
+          "conversions": 21.723625,
+          "cost": 1656.5264509999995,
+          "cpl": 76.25460534326106
+        },
+        {
+          "term": "nonprofit attorney",
+          "conversions": 19.950317,
+          "cost": 906.8636889999999,
+          "cpl": 45.45610423132625
+        },
+        {
+          "term": "nonprofit lawyer",
+          "conversions": 16.967409,
+          "cost": 930.4977349999999,
+          "cpl": 54.840296181933255
+        },
+        {
+          "term": "legal aid",
+          "conversions": 7.0,
+          "cost": 595.9459559999999,
+          "cpl": 85.13513657142856
+        }
+      ]
+    },
+    "how_to_queries": {
+      "total_cost": 37453.00825600002,
+      "total_conversions": 510.774726,
+      "avg_cpl": 73.32588389661242,
+      "term_count": 596,
+      "top_converting_terms": [
+        {
+          "term": "how to start a nonprofit",
+          "conversions": 78.46721,
+          "cost": 3617.131570999999,
+          "cpl": 46.09736437678872
+        },
+        {
+          "term": "how to start a nonprofit organization",
+          "conversions": 49.452344,
+          "cost": 2942.1307130000005,
+          "cpl": 59.494262051562224
+        },
+        {
+          "term": "how to start a non profit",
+          "conversions": 29.0,
+          "cost": 2662.2477089999993,
+          "cpl": 91.801645137931
+        },
+        {
+          "term": "how to start a non profit organization",
+          "conversions": 28.0,
+          "cost": 2268.7489610000002,
+          "cpl": 81.02674860714286
+        },
+        {
+          "term": "how to start a foundation",
+          "conversions": 13.0,
+          "cost": 573.212664,
+          "cpl": 44.09328184615385
+        }
+      ]
+    },
+    "help_queries": {
+      "total_cost": 2753.2922989999993,
+      "total_conversions": 18.033379,
+      "avg_cpl": 152.67755970747353,
+      "term_count": 70,
+      "top_converting_terms": [
+        {
+          "term": "non profit financial help",
+          "conversions": 2.0,
+          "cost": 83.207504,
+          "cpl": 41.603752
+        },
+        {
+          "term": "non profit assistance",
+          "conversions": 2.0,
+          "cost": 262.303586,
+          "cpl": 131.151793
+        },
+        {
+          "term": "help with starting a nonprofit",
+          "conversions": 2.0,
+          "cost": 76.39,
+          "cpl": 38.195
+        },
+        {
+          "term": "help starting a nonprofit",
+          "conversions": 2.0,
+          "cost": 130.31,
+          "cpl": 65.155
+        },
+        {
+          "term": "cflcc org find help",
+          "conversions": 2.0,
+          "cost": 38.8,
+          "cpl": 19.4
+        }
+      ]
+    },
+    "brand_queries": {
+      "total_cost": 2926.9636579999997,
+      "total_conversions": 109.922477,
+      "avg_cpl": 26.627526397535597,
+      "term_count": 21,
+      "top_converting_terms": [
+        {
+          "term": "chisholm law firm",
+          "conversions": 84.963631,
+          "cost": 1531.9184519999997,
+          "cpl": 18.03028465202952
+        },
+        {
+          "term": "chisholm law firm pllc",
+          "conversions": 16.977494999999998,
+          "cost": 519.838203,
+          "cpl": 30.619252310190642
+        },
+        {
+          "term": "chisholm and chisholm law firm",
+          "conversions": 4.0,
+          "cost": 250.694923,
+          "cpl": 62.67373075
+        },
+        {
+          "term": "audrey chisholm",
+          "conversions": 2.0,
+          "cost": 100.85908599999999,
+          "cpl": 50.429542999999995
+        },
+        {
+          "term": "audrey chisholm law firm",
+          "conversions": 1.96661,
+          "cost": 22.9796,
+          "cpl": 11.684879055837204
+        }
+      ]
+    },
+    "informational": {
+      "total_cost": 67.78318999999999,
+      "total_conversions": 0.0,
+      "avg_cpl": null,
+      "term_count": 5,
+      "top_converting_terms": []
+    },
+    "other": {
+      "total_cost": 44882.41307799998,
+      "total_conversions": 581.0281699999998,
+      "avg_cpl": 77.24653535817376,
+      "term_count": 1151,
+      "top_converting_terms": [
+        {
+          "term": "how do i start a non profit organization",
+          "conversions": 19.0,
+          "cost": 1120.6595929999996,
+          "cpl": 58.98208384210525
+        },
+        {
+          "term": "501c3 requirements",
+          "conversions": 15.0,
+          "cost": 761.6461110000004,
+          "cpl": 50.776407400000025
+        },
+        {
+          "term": "how do you start a non profit organization",
+          "conversions": 12.666667,
+          "cost": 420.24824600000005,
+          "cpl": 33.17749223217126
+        },
+        {
+          "term": "501c3 nonprofit",
+          "conversions": 11.975406,
+          "cost": 854.8143509999999,
+          "cpl": 71.38082424929893
+        },
+        {
+          "term": "non profit lawyers",
+          "conversions": 8.0,
+          "cost": 503.8342640000001,
+          "cpl": 62.97928300000001
+        }
+      ]
+    }
+  },
+  "march_collapse_factors": [
+    {
+      "factor": "Campaign Mix Changes - February",
+      "severity": "HIGH",
+      "finding": "New campaigns in February: Non Brand - High Intent, Nationwide - Non Brand 1 Nationwide - Non Brand 1 - Q1 '26 LP Test, Non Brand - High Intent Non Brand - High Intent (FL Ad Group LP Test)",
+      "analysis": "These campaigns may have taken budget/traffic from legacy campaigns"
+    },
+    {
+      "factor": "CPL Increase by Campaign",
+      "severity": "HIGH",
+      "finding": "1 campaigns saw 30%+ CPL increase in March",
+      "analysis": "Higher CPL indicates either lower conversion rates or increased competition",
+      "details": [
+        {
+          "campaign": "Nationwide - Non Brand 1",
+          "feb_cpl": 73.14974346580513,
+          "mar_cpl": 97.83029256076607,
+          "increase": 33.7397616527503
+        }
+      ]
+    },
+    {
+      "factor": "Conversion Volume Decline",
+      "severity": "CRITICAL",
+      "finding": "Daily conversions dropped from 67.3 to 39.4",
+      "analysis": "That's a 41% drop in daily conversion rate",
+      "details": {
+        "february": {
+          "daily_conversions": 67.3236754285714,
+          "daily_spend": 4931.375362999997
+        },
+        "march": {
+          "daily_conversions": 39.3944214,
+          "daily_spend": 3324.4392098999997
+        }
+      }
+    },
+    {
+      "factor": "Budget Constraints",
+      "severity": "MEDIUM",
+      "finding": "1 campaigns losing impression share due to budget",
+      "analysis": "Budget may be limiting reach on converting campaigns",
+      "details": [
+        {
+          "campaign": "Nationwide - Non Brand 1",
+          "budget_lost_is": 28.53040118722856
+        }
+      ]
+    }
+  ],
+  "insights": [
+    {
+      "category": "Trend Analysis",
+      "insight": "From 2026-01 to 2026-03: CPL went from $65.54 to $84.39",
+      "implication": "negative",
+      "recommendation": "Investigate what drove the change"
+    },
+    {
+      "category": "Search Intent",
+      "insight": "'Help' queries (70 terms) converted at $152.68 CPL",
+      "implication": "neutral",
+      "recommendation": "These are qualified leads - ensure ads show for 'NPO help', '501c3 help' queries"
+    },
+    {
+      "category": "Search Intent",
+      "insight": "'How to' queries converted 511 times at $73.33 CPL",
+      "implication": "positive",
+      "recommendation": "These ARE converting - Audrey confirmed 'how to start a nonprofit' closed a client today"
+    },
+    {
+      "category": "Campaign Performance",
+      "insight": "Best performing (March): Nationwide - Brand at $28.39 CPL",
+      "implication": "positive",
+      "recommendation": "Increase budget on this campaign"
+    },
+    {
+      "category": "Root Cause",
+      "insight": "Daily conversions dropped from 67.3 to 39.4",
+      "implication": "negative",
+      "recommendation": "That's a 41% drop in daily conversion rate"
+    }
+  ],
+  "qualified_keywords_update": {
+    "note": "Based on Audrey's feedback - these keywords ARE converting:",
+    "keywords": [
+      "how to start a nonprofit",
+      "how to start a non-profit",
+      "NPO help",
+      "501c3 help",
+      "501 c 3 help"
+    ],
+    "action_taken": "Removed 61 negative keywords that were blocking these queries"
+  }
+}
